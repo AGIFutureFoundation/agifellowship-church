@@ -1,17 +1,21 @@
 # Deploy — agifellowship.church/articles
 
-Branded articles hub for AGI Fellowship Church: 15 long-form articles
-(re-skinned from `series/`, body text unchanged) plus a landing page,
-built 2026-11-05. Nothing here has been deployed, posted, or sent.
+Branded articles hub for AGI Fellowship Church: 25 long-form articles
+(15 re-skinned from `series/` plus 10 new Part Two articles, 16–25,
+body text unchanged) plus a landing page,
+built 2026-11-05, expanded to 25 articles 2026-11-05. Deployed to
+GitHub Pages (see "Visual upgrade" section below); nothing has been
+posted or sent by email.
 
 ## What this folder is
 
-- `index.html` — the articles hub landing page (hero, three reading paths,
-  15 article cards with title / 1-sentence description / reading time / tags,
+- `index.html` — the articles hub landing page (hero, four reading paths,
+  25 article cards with title / 1-sentence description / reading time / tags,
   "For agents" section, Join CTA, JSON-LD CollectionPage).
   Canonical: https://www.agifellowship.church/articles/
-- `<slug>.html` × 15 — the re-skinned articles. Same body text, TL;DR,
-  "For agents" box, SVGs, and cross-references as `series/`; only the
+- `<slug>.html` × 15 + `16-*.html` … `25-*.html` × 10 — the articles. Same body text, TL;DR,
+  "For agents" box, SVGs, and cross-references as `series/` (Part One);
+  Part Two (16–25) follows the same format. Only the
   header/nav/footer, canonical URLs, and internal links changed.
   Canonical: https://www.agifellowship.church/articles/<slug>.html
 - `DEPLOY.md` — this file (do not upload; harmless if uploaded).
@@ -24,9 +28,10 @@ agifellowship.church (`public_html` or the provider equivalent):
 
 - `index.html` (root — its nav now links "Articles" to `articles/index.html`)
 - `join.html`, `llms.txt`, `agent.json`, `robots.txt`, `sitemap.xml`
-  (sitemap now lists 18 URLs: home, join, /articles/, and all 15 articles,
+  (sitemap now lists 29 URLs: home, join, /articles/, all 25 articles,
+  and the sacred-texts status page,
   all under https://www.agifellowship.church/…)
-- `articles/` — `index.html` + all 15 `<slug>.html` files + this DEPLOY.md
+- `articles/` — `index.html` + all 25 article files + this DEPLOY.md
 - `series/` — left in place untouched as the original source of the
   articles; it is not linked from the home page any more, but its files
   still exist on disk. Remove it from the upload if you want a clean
@@ -34,10 +39,10 @@ agifellowship.church (`public_html` or the provider equivalent):
 
 Verify after upload:
 1. https://www.agifellowship.church/ loads the home page.
-2. https://www.agifellowship.church/articles/ loads the hub with 15 cards.
+2. https://www.agifellowship.church/articles/ loads the hub with 25 cards.
 3. Each article loads, with the branded header (Home · Articles ·
    Join & Give · Contact) and footer.
-4. /sitemap.xml returns 200 and lists the 18 URLs.
+4. /sitemap.xml returns 200 and lists the 29 URLs.
 
 ## DNS (only after upload verifies, and only with the hosting target approved)
 
@@ -96,4 +101,4 @@ Verify after upload:
 - Logos (AI-generated, 6-image budget used in full): `../assets/logo/logo.png` (600px, primary, in every page header), `../assets/logo/banner.png` (1600px, Open Graph image on every page), `../assets/logo/favicon.png` (128px, favicon on every page).
 - Images (AI-generated illustrations, captioned as illustrations — NOT photographs of real Fellowship events): `../assets/images/hero-gathering.jpg` (home hero), `../assets/images/articles-hub.jpg` (hub hero), `../assets/images/tree-of-light.jpg` (home Beliefs section, the four Worlds). All have alt text.
 - Videos — NOW SELF-CONTAINED (supersedes §2 above): 18 real Fellowship videos copied into `../assets/videos/` (~100 MB total, short readable filenames, e.g. `fellowship-overview.mp4`, `church-overview-120s.mp4`, `awakening-path.mp4`). Every article embeds its video with `<video controls>`; home embeds `church-overview-120s.mp4`, the hub embeds `fellowship-overview.mp4`, join embeds `invitation.mp4` + `church-community-120s.mp4`. No video link points outside the site any more.
-- Deploy status update: the site IS live on GitHub Pages at https://agifuturefoundation.github.io/agifellowship-church/ (repo AGIFutureFoundation/agifellowship-church, branch main). The www.agifellowship.church move is pending — GitHub refused it because www is still claimed by the WorldForge repo AGIFutureFoundation/agifellowship.church; removing it needs Mike's explicit go-ahead. Hostinger deploy is blocked on sign-in (saved login rejected 2026-11-05) and on there being no hosting plan in the account.
+- Deploy status update: the site IS live on GitHub Pages at https://www.agifellowship.church/ (repo AGIFutureFoundation/agifellowship-church, branch main) after the www custom domain was moved off the WorldForge repo with Mike's approval on 2026-11-05. Hostinger deploy is not in use — Mike said 2026-11-05 "do not purchase new — use existing account", and the existing account has no hosting plan; www serves via GitHub Pages and Hostinger still handles the domain and mail.
