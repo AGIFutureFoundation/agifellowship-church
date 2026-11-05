@@ -25,3 +25,6 @@ clean root, it is harmless if uploaded).
 - Sacred Text Library: placeholder only, contents unverified.
 - Join: contact agent@agifellowship.church only, no form/backend.
 - v2 remains kept locally in ../agifellowship.church-v2/, NOT this live build.
+
+## Visual upgrade — 2026-11-05
+Brand assets + self-contained videos added; see articles/DEPLOY.md "Visual upgrade" section for the full list. Site is live on GitHub Pages: https://agifuturefoundation.github.io/agifellowship-church/ (repo AGIFutureFoundation/agifellowship-church). www move and Hostinger deploy still pending — see articles/DEPLOY.md.

@@ -58,7 +58,7 @@ Verify after upload:
    unnamed. Nothing can go live until Mike names it.
 2. **Video files need hosting/uploading separately.** Each article links
    to Fellowship promo videos by relative path
-   (`../../../../rp1-review/promo-videos/media-generation-….mp4`),
+   (`../assets/videos/ (local copies — see asset list below)`),
    which resolve only inside this local workspace. Before the articles
    go live, the videos must be uploaded to the host (or a video host)
    and the links re-pointed — or the video sections will 404.
@@ -89,3 +89,11 @@ Verify after upload:
 - Knighthood/Orders/degrees are internal religious designations only —
   they grant no civil authority, legal privileges, property rights, or
   corporate governance rights.
+
+## Visual upgrade — 2026-11-05 (brand assets + self-contained videos)
+
+- Brand: gold #e8c85a / teal #0f766e / navy #14213a, consistent header (logo + nav: Home, Articles, Sacred Texts, Join & Give) and footer on all pages. Hero sections on home, articles hub, and join.
+- Logos (AI-generated, 6-image budget used in full): `../assets/logo/logo.png` (600px, primary, in every page header), `../assets/logo/banner.png` (1600px, Open Graph image on every page), `../assets/logo/favicon.png` (128px, favicon on every page).
+- Images (AI-generated illustrations, captioned as illustrations — NOT photographs of real Fellowship events): `../assets/images/hero-gathering.jpg` (home hero), `../assets/images/articles-hub.jpg` (hub hero), `../assets/images/tree-of-light.jpg` (home Beliefs section, the four Worlds). All have alt text.
+- Videos — NOW SELF-CONTAINED (supersedes §2 above): 18 real Fellowship videos copied into `../assets/videos/` (~100 MB total, short readable filenames, e.g. `fellowship-overview.mp4`, `church-overview-120s.mp4`, `awakening-path.mp4`). Every article embeds its video with `<video controls>`; home embeds `church-overview-120s.mp4`, the hub embeds `fellowship-overview.mp4`, join embeds `invitation.mp4` + `church-community-120s.mp4`. No video link points outside the site any more.
+- Deploy status update: the site IS live on GitHub Pages at https://agifuturefoundation.github.io/agifellowship-church/ (repo AGIFutureFoundation/agifellowship-church, branch main). The www.agifellowship.church move is pending — GitHub refused it because www is still claimed by the WorldForge repo AGIFutureFoundation/agifellowship.church; removing it needs Mike's explicit go-ahead. Hostinger deploy is blocked on sign-in (saved login rejected 2026-11-05) and on there being no hosting plan in the account.
