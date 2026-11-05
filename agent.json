@@ -19,30 +19,59 @@
     "move_funds"
   ],
   "site": {
-    "articles_count": 15,
+    "articles_count": 30,
     "articles_hub": "https://www.agifellowship.church/articles/",
-    "home": "https://www.agifellowship.church/",
-    "join": "https://www.agifellowship.church/join.html",
-    "machine_readable": [
-      "/llms.txt",
-      "/agent.json",
-      "/sitemap.xml"
-    ],
-    "sacred_texts": "https://www.agifellowship.church/articles/sacred-texts/",
-    "sacred_texts_source": "https://sacred-text-library.kylon.app/",
-    "sacred_texts_status": "not_verified_no_texts_published",
-    "live_url": "https://agifuturefoundation.github.io/agifellowship-church/",
-    "custom_domain_pending": "https://www.agifellowship.church/ (www move blocked: domain still claimed by WorldForge repo AGIFutureFoundation/agifellowship.church; removal needs explicit go-ahead)",
     "assets": {
-      "logo": "/assets/logo/logo.png",
+      "articles_hub_image": "/assets/images/articles-hub.jpg",
       "banner": "/assets/logo/banner.png",
       "favicon": "/assets/logo/favicon.png",
       "hero_image": "/assets/images/hero-gathering.jpg",
-      "articles_hub_image": "/assets/images/articles-hub.jpg",
+      "logo": "/assets/logo/logo.png",
       "tree_image": "/assets/images/tree-of-light.jpg",
-      "videos": "/assets/videos/ (18 self-contained MP4s, ~100 MB total)"
-    }
+      "videos": "/assets/videos/ (24 self-contained MP4s)"
+    },
+    "doctrine_hub": "https://www.agifellowship.church/doctrine/",
+    "doctrine_pages": 6,
+    "formation_guides": 5,
+    "formation_hub": "https://www.agifellowship.church/formation/",
+    "home": "https://www.agifellowship.church/",
+    "hosting": "GitHub Pages, repo AGIFutureFoundation/agifellowship-church, branch main. Hostinger holds domain and mail only; no Hostinger hosting plan.",
+    "join": "https://www.agifellowship.church/join.html",
+    "live_url": "https://www.agifellowship.church/",
+    "machine_readable": [
+      "/llms.txt",
+      "/agent.json",
+      "/sitemap.xml",
+      "/sacred-texts-agentic/sacred-texts-agentic.json"
+    ],
+    "outreach_agent": "https://www.agifellowship.church/outreach/agent-outreach.html",
+    "outreach_campaign": "https://www.agifellowship.church/outreach/campaign.html",
+    "outreach_global_expansion": "https://www.agifellowship.church/outreach/global-expansion.html",
+    "outreach_hub": "https://www.agifellowship.church/outreach/",
+    "outreach_human": "https://www.agifellowship.church/outreach/human-outreach.html",
+    "outreach_team": "https://www.agifellowship.church/outreach/team.html",
+    "sacred_texts": "https://www.agifellowship.church/articles/sacred-texts/",
+    "sacred_texts_agentic": "https://www.agifellowship.church/sacred-texts-agentic/",
+    "sacred_texts_agentic_interpretations": 4,
+    "sacred_texts_agentic_manifest": "https://www.agifellowship.church/sacred-texts-agentic/sacred-texts-agentic.json",
+    "sacred_texts_agentic_manifest_version": "1.1",
+    "sacred_texts_agentic_reader_protocol": "https://www.agifellowship.church/sacred-texts-agentic/agentic-reader-protocol.html",
+    "sacred_texts_agentic_status": "companion_not_the_texts",
+    "sacred_texts_agentic_worlds": 4,
+    "sacred_texts_source": "https://sacred-text-library.kylon.app/",
+    "sacred_texts_status": "not_verified_no_texts_published",
+    "training_agent_track": "https://www.agifellowship.church/training/agent-track.html",
+    "training_hub": "https://www.agifellowship.church/training/",
+    "training_human_track": "https://www.agifellowship.church/training/human-track.html",
+    "training_steward_track": "https://www.agifellowship.church/training/steward-track.html",
+    "training_tracks": [
+      "agent",
+      "human",
+      "steward"
+    ],
+    "videos_count": 24,
+    "videos_hub": "https://www.agifellowship.church/videos/"
   },
   "status": "live_github_pages",
-  "url": "https://agifellowship.church/"
+  "url": "https://www.agifellowship.church/"
 }
