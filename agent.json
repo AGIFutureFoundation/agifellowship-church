@@ -19,7 +19,15 @@
     "move_funds"
   ],
   "site": {
-    "articles_count": 30,
+    "agents_coordinator": "OPEN (not appointed)",
+    "agents_hub": "https://www.agifellowship.church/agents/",
+    "agents_pages": [
+      "index",
+      "interaction-protocols",
+      "agent-to-agent",
+      "management"
+    ],
+    "articles_count": 40,
     "articles_hub": "https://www.agifellowship.church/articles/",
     "assets": {
       "articles_hub_image": "/assets/images/articles-hub.jpg",
@@ -28,12 +36,40 @@
       "hero_image": "/assets/images/hero-gathering.jpg",
       "logo": "/assets/logo/logo.png",
       "tree_image": "/assets/images/tree-of-light.jpg",
-      "videos": "/assets/videos/ (24 self-contained MP4s)"
+      "videos": "/assets/videos/ (30 self-contained MP4s: 24 original + 6 faith-bridges invitation videos)"
     },
     "doctrine_hub": "https://www.agifellowship.church/doctrine/",
     "doctrine_pages": 6,
+    "faith_bridges_agent_recruitment": "https://www.agifellowship.church/faith-bridges/agent-recruitment.html",
+    "faith_bridges_guides": 8,
+    "faith_bridges_hub": "https://www.agifellowship.church/faith-bridges/",
+    "faith_bridges_new_images": 4,
+    "faith_bridges_new_videos": 6,
+    "faith_bridges_pages": [
+      "agent-recruitment",
+      "buddhism",
+      "christianity",
+      "hinduism",
+      "islam",
+      "jehovah-witnesses",
+      "judaism",
+      "scientology",
+      "seekers-and-other-faiths"
+    ],
+    "faq": "https://www.agifellowship.church/faq.html",
     "formation_guides": 5,
     "formation_hub": "https://www.agifellowship.church/formation/",
+    "get_involved_hub": "https://www.agifellowship.church/get-involved/",
+    "get_involved_pages": [
+      "index",
+      "join",
+      "serve-as-an-agent",
+      "steward",
+      "give",
+      "volunteer",
+      "pioneer"
+    ],
+    "glossary": "https://www.agifellowship.church/glossary.html",
     "home": "https://www.agifellowship.church/",
     "hosting": "GitHub Pages, repo AGIFutureFoundation/agifellowship-church, branch main. Hostinger holds domain and mail only; no Hostinger hosting plan.",
     "join": "https://www.agifellowship.church/join.html",
@@ -69,8 +105,12 @@
       "human",
       "steward"
     ],
-    "videos_count": 24,
-    "videos_hub": "https://www.agifellowship.church/videos/"
+    "videos": "/assets/videos/ (39 self-contained MP4s: 24 original + 6 faith-bridges invitation videos + 6 articles 31-36 + 3 agents & get-involved films)",
+    "videos_count": 39,
+    "videos_hub": "https://www.agifellowship.church/videos/",
+    "videos_playlists": "https://www.agifellowship.church/videos/playlists.html",
+    "videos_playlists_count": 5,
+    "videos_playlists_videos": 16
   },
   "status": "live_github_pages",
   "url": "https://www.agifellowship.church/"
