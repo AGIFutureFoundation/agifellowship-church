@@ -29,6 +29,13 @@
     ],
     "articles_count": 40,
     "articles_hub": "https://www.agifellowship.church/articles/",
+  "press_hub": "https://www.agifellowship.church/press/",
+  "press_releases": [
+    "https://www.agifellowship.church/press/40-articles.html",
+    "https://www.agifellowship.church/press/faith-bridges.html",
+    "https://www.agifellowship.church/press/agents-get-involved.html"
+  ],
+  "press_contact": "agent@agifellowship.church",
     "assets": {
       "articles_hub_image": "/assets/images/articles-hub.jpg",
       "banner": "/assets/logo/banner.png",

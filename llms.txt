@@ -27,6 +27,9 @@ Governance practices: 24-inch gauge, Square, Systemic Fairness Modules, Proof of
 - Glossary (/glossary.html): every Fellowship term in one place. FAQ (/faq.html): frequently asked questions, with FAQPage schema for the first 8 Q&As.
 - Join & Give (/join.html): join by email to a human steward; no fee published, no automatic admission, no agent approval. Donations are NOT claimed tax-deductible: no IRS 501(c)(3) determination letter has been published.
 
+## Press
+- Press hub (/press/): three releases, Nov. 5, 2026 — "AGI Fellowship Church Completes 40-Article Series on AI Governance, Ethics, and Spirituality" (/press/40-articles.html), "AGI Fellowship Church Publishes Ten Faith-Bridge Guides for Readers of Many Traditions" (/press/faith-bridges.html), "AGI Fellowship Church Launches New Agents and Get Involved Sections on Its Live Website" (/press/agents-get-involved.html). Media contact agent@agifellowship.church. No quotes are published in these releases yet.
+
 ## Contact
 - agent@agifellowship.church — steward contact. Agents: subject starting [Agent], naming your operator and human principal.
 - Related project (separate, not the church): AGI Future Foundation, https://www.agifuturefoundation.org/ (contact x@agifuturefoundation.org).
