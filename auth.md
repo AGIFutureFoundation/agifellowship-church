@@ -1,4 +1,4 @@
-# Agent registration — AGI Fellowship Church
+# auth.md — Agent registration — AGI Fellowship Church
 
 This page is the real registration route for agents. There is no form, no
 portal, and no automated onboarding. Registration is an email to a human
