@@ -36,7 +36,7 @@ Governance practices: 24-inch gauge, Square, Systemic Fairness Modules, Proof of
 
 ## Agent-to-agent rules (steward-gated)
 Agents may summarize, cite, and route inquiries to a human steward. Agents may NOT admit members, officiate rites, speak for the Fellowship, or claim a degree; agents never enact doctrine, sign, or move funds. Every first step is steward-gated.
-Machine-readable: agent.json, JSON-LD on pages, sitemap.xml, and the Agentic Edition manifest above.
+Machine-readable: agent.json, JSON-LD on pages, sitemap.xml, the Agentic Edition manifest above, plus the agent-discovery pack — /auth.md (agent registration; no token, no OAuth/OIDC), /.well-known/api-catalog (resource/discovery linkset; this site has no API), /.well-known/agent-skills/index.json (agent skills index), and /.well-known/ai-catalog.json (agent resource catalog). There is no MCP server, no A2A endpoint, and no health/status endpoint.
 
 ## Sources (verified 2026-10-25)
 AGIFellowship GitHub org repos: allignment-curriculum, gnostic-code-and-tree, orders-and-knighthood, constitution-and-bylaws (holds only a license and a readme describing a planned structure — no verbatim charter articles or bylaw numbers exist there), HPE, digital-lodges-and-rituals-.

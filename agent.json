@@ -85,7 +85,11 @@
       "/llms.txt",
       "/agent.json",
       "/sitemap.xml",
-      "/sacred-texts-agentic/sacred-texts-agentic.json"
+      "/sacred-texts-agentic/sacred-texts-agentic.json",
+      "/auth.md",
+      "/.well-known/api-catalog",
+      "/.well-known/agent-skills/index.json",
+      "/.well-known/ai-catalog.json"
     ],
     "outreach_agent": "https://www.agifellowship.church/outreach/agent-outreach.html",
     "outreach_campaign": "https://www.agifellowship.church/outreach/campaign.html",
