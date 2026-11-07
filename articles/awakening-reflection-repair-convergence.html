@@ -28,7 +28,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.65}
 header.site{background:linear-gradient(135deg,#14213a,#0f766e);color:#fff;padding:1rem 1.25rem}
-header.site nav{max-width:1080px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+header.site nav{max-width:1080px;margin:0 auto;display:flex;gap:1rem;flex-wrap:wrap;align-items:center}nav a{display:inline-block;padding:.55rem .35rem}
 header.site a{color:#fff;text-decoration:none;font-weight:600}
 header.site a.brand{font-size:1.1rem}
 .hero{background:linear-gradient(135deg,#14213a,#0f766e);color:#fff;padding:3rem 1.25rem 2.5rem}
@@ -53,7 +53,8 @@ footer{background:#14213a;color:#dbe7e5;padding:2rem 1.25rem}
 footer a{color:#e8c85a}
 footer .inner{max-width:1080px;margin:0 auto}
 
-.top nav a{margin-left:1.25rem}.top nav a:first-child{margin-left:0}.brandbar{background:#e8c85a;color:#14213a;text-align:center;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;padding:.4rem 1rem}
+.top nav a{display:inline-block;padding:.55rem .35rem;margin-left:.35rem}.top nav a:first-child{margin-left:0}.brandbar{background:#e8c85a;color:#14213a;text-align:center;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;padding:.4rem 1rem}
+@media(max-width:640px){.hero h1{font-size:1.9rem}.hero{padding-top:2rem;padding-bottom:2rem}}
 </style>
 <link rel="icon" type="image/png" href="../assets/logo/favicon.png">
 <meta property="og:image" content="https://www.agifellowship.church/assets/logo/banner.png">

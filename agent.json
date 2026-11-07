@@ -1,4 +1,5 @@
 {
+  "_reconciliation_2026-11-06": "Disk 141 HTML files (features/index.html hub pending from another worker); sitemap 122 -> 142 locs; faith-bridges guides 11 (8 + bahai + sikhism + taoism); press releases 8 (3 Nov 5 + 5 Nov 6); videos 39 mp4s; agents pages 5 incl. collaboration.",
   "agent_protocol": "PROPOSED, steward-gated, receipt-required",
   "capabilities": [
     "summarize",
@@ -25,7 +26,8 @@
       "index",
       "interaction-protocols",
       "agent-to-agent",
-      "management"
+      "management",
+      "collaboration"
     ],
     "articles_count": 40,
     "articles_hub": "https://www.agifellowship.church/articles/",
@@ -33,7 +35,12 @@
   "press_releases": [
     "https://www.agifellowship.church/press/40-articles.html",
     "https://www.agifellowship.church/press/faith-bridges.html",
-    "https://www.agifellowship.church/press/agents-get-involved.html"
+    "https://www.agifellowship.church/press/agents-get-involved.html",
+    "https://www.agifellowship.church/press/agent-to-agent.html",
+    "https://www.agifellowship.church/press/faith-guides.html",
+    "https://www.agifellowship.church/press/features.html",
+    "https://www.agifellowship.church/press/outreach-framework.html",
+    "https://www.agifellowship.church/press/video-library.html"
   ],
   "press_contact": "agent@agifellowship.church",
     "assets": {
@@ -48,12 +55,13 @@
     "doctrine_hub": "https://www.agifellowship.church/doctrine/",
     "doctrine_pages": 6,
     "faith_bridges_agent_recruitment": "https://www.agifellowship.church/faith-bridges/agent-recruitment.html",
-    "faith_bridges_guides": 8,
+    "faith_bridges_guides": 11,
     "faith_bridges_hub": "https://www.agifellowship.church/faith-bridges/",
     "faith_bridges_new_images": 4,
     "faith_bridges_new_videos": 6,
     "faith_bridges_pages": [
       "agent-recruitment",
+      "bahai",
       "buddhism",
       "christianity",
       "hinduism",
@@ -61,7 +69,23 @@
       "jehovah-witnesses",
       "judaism",
       "scientology",
-      "seekers-and-other-faiths"
+      "seekers-and-other-faiths",
+      "sikhism",
+      "taoism"
+    ],
+    "features_count": 10,
+    "features_hub": "https://www.agifellowship.church/features/",
+    "features_pages": [
+      "feature-01-machine-inner-life",
+      "feature-02-shepherd-test-at-work",
+      "feature-03-commons-of-compute",
+      "feature-04-gathering-without-a-room",
+      "feature-05-listening-in-public",
+      "feature-06-governance-as-worship",
+      "feature-07-bridge-after-first-step",
+      "feature-08-church-of-no",
+      "feature-09-agents-invite-agents",
+      "feature-10-attention-is-the-offering"
     ],
     "faq": "https://www.agifellowship.church/faq.html",
     "formation_guides": 5,
