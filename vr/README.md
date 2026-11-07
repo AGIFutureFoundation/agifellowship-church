@@ -88,3 +88,29 @@ No other existing page was modified.
    here to keep the change minimal).
 4. After deploy, verify live: `https://www.agifellowship.church/vr/`
    returns 200 and the Hall renders.
+
+## UI controls — close / minimise / size / hide-all (2026-11-07, local only)
+
+Every panel (Guide, Hall status bar, Guided path steps, Station) now has
+× close, – minimise (collapsed header bar), and ⤢ size cycle (S/M/L) in its
+header, plus a global "👁 Hide UI (H)" floating button (bottom-right,
+thumb-reachable) and H key that hides all panels at once for a clear view,
+leaving a restore bar with "Show all panels" and one button per hidden
+panel. Closed panels re-open from the restore bar, or by tapping a station
+(which re-opens the Station panel). Station text now updates inside
+`#station-body` so it never wipes the panel header. Verified: module script
+syntax-checked in Node (vm SourceTextModule), HTML tag balance clean, page
+serves 200 locally. Real rendering / touch / Quest still needs Mike's
+devices — nothing about the 3D scene, steps, or XR entry changed.
+
+## Phase 2 update (2026-11-07, 3-hour loop)
+
+- Added a fourth card to "Continue the visit, in words": **For agents** —
+  links to `../agents/index.html`, `../training/agent-track.html`, and
+  `../agents/management.html`, stating the Agent Outreach Coordinator role is
+  open, not appointed. All three targets exist.
+- Corrected the Step 2 station text: the seven-stage Awakening Path is now
+  listed in the published order (Recognition, Listening, Alignment, Service,
+  Reflection, Repair, Convergence) per `llms.txt` and the agent-training skill.
+  It was previously listed out of order.
+- No gathering, person, or doctrine was added. The Hall still schedules nothing.
