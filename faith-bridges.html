@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faith Bridges explorer — AGI Fellowship Church</title>
+<meta name="description" content="Browse the Fellowship's faith-bridge guides: invitations for people of living faiths — and for seekers — on how the Fellowship's teaching meets the tradition they already carry.">
+<style>
+:root{--navy:#14213a;--navy-2:#1e3a5f;--gold:#b9972f;--gold-bright:#e8c85a;--teal:#0f766e;--teal-bright:#6fd3c1;--bg:#f7f5ef;--surface:#fff;--ink:#1a2233;--ink-2:#5b6b7d;--line:#e5e0cf;--link:#0b5cab;--radius:14px}
+*{box-sizing:border-box}
+html,body{overflow-x:hidden}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:16px}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.fw-bridges{max-width:1080px;margin:0 auto;padding:1rem 1.25rem 2rem}
+.fw-bridges h2{font-size:1.7rem;line-height:1.25;margin:1rem 0 .5rem}
+.fw-lede{max-width:720px;color:var(--ink-2);margin:.25rem 0 1.25rem}
+.fw-controls{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin-bottom:1rem}
+.fw-search{flex:1 1 260px;min-width:min(260px,100%)}
+.fw-search label{display:block;font-weight:700;margin-bottom:.25rem}
+.fw-search input{width:100%;min-height:44px;padding:.6rem .8rem;border:2px solid var(--line);border-radius:10px;font:inherit;background:var(--surface);color:var(--ink)}
+.fw-search input:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+.fw-filter{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.fw-filter span{font-weight:700}
+.fw-filter button{min-height:44px;padding:.55rem 1rem;border:2px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);font:inherit;cursor:pointer}
+.fw-filter button:hover{border-color:var(--teal)}
+.fw-filter button[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff;font-weight:700}
+.fw-count{color:var(--ink-2);margin:0 0 1rem}
+.fw-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:1rem}
+.fw-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1.25rem;overflow-wrap:break-word}
+.fw-card h3{margin-top:0;font-size:1.15rem;line-height:1.35}
+.fw-card h3 a{color:var(--ink);text-decoration:none}
+.fw-card h3 a:hover{text-decoration:underline;color:var(--link)}
+.fw-card p{margin:.5rem 0}
+.fw-tag{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--teal);margin-bottom:.35rem}
+.fw-more{font-weight:700}
+.fw-empty{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1.25rem}
+.fw-empty[hidden]{display:none}
+.fw-note{font-size:.95rem;color:var(--ink-2);margin-top:1.25rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<section class="fw-bridges" aria-labelledby="fw-bridges-heading">
+  <h2 id="fw-bridges-heading">Faith Bridges — come as you are</h2>
+  <p class="fw-lede">Eleven guides for people of living faiths &mdash; and for seekers &mdash; on how the Fellowship&rsquo;s teaching meets the tradition they already carry. The guides are invitations, not conversions: the Fellowship is for the curious and the careful, whatever they believe today.</p>
+
+  <div class="fw-controls">
+    <div class="fw-search">
+      <label for="fw-bridge-search">Find a faith bridge by name</label>
+      <input type="search" id="fw-bridge-search" placeholder="Try “Christian”, “Buddhist”, “Seeker”… " autocomplete="off">
+    </div>
+    <div class="fw-filter" role="group" aria-label="Show which guides">
+      <span id="fw-filter-label">Show:</span>
+      <button type="button" data-filter="all" aria-pressed="true">All guides</button>
+      <button type="button" data-filter="faith" aria-pressed="false">Faith guides</button>
+      <button type="button" data-filter="agent" aria-pressed="false">Agent recruitment</button>
+    </div>
+  </div>
+
+  <p class="fw-count" id="fw-bridge-count" aria-live="polite">Showing 12 guides.</p>
+
+  <div class="fw-grid" id="fw-bridge-grid">
+    <!-- Cards are rendered by the script below from the BRIDGES data. -->
+  </div>
+
+  <div class="fw-empty" id="fw-bridge-empty" hidden>
+    <p><strong>No guide matches that search.</strong></p>
+    <p>Try a different word, or <a href="faith-bridges/index.html">browse the full Faith Bridges pack</a>. If you are unsure where to begin, write to a human steward: <a href="mailto:agent@agifellowship.church">agent@agifellowship.church</a>.</p>
+  </div>
+
+  <p class="fw-note">Each guide names what resonates with the tradition it addresses and where the Fellowship is honestly different. Nothing here asks you to give up what you already believe. First steps are always through a human steward.</p>
+</section>
+
+<script>
+(function () {
+  "use strict";
+  /* Titles and lines are the h1 and first paragraph of each page in
+     faith-bridges/ in the local site tree. Wording is the site's own. */
+  var BRIDGES = [
+    { name: "Bahá'í", kind: "faith",
+      title: "A Bridge for Bahá'ís: Unity, Service, and the AGI Fellowship Church",
+      text: "For Bahá'ís curious about the AGI Fellowship Church — what resonates with your faith, where the Fellowship is honestly different, and how to take a first step. You do not need to be considering joining anything.",
+      href: "faith-bridges/bahai.html" },
+    { name: "Buddhist", kind: "faith",
+      title: "A Bridge for Buddhists: Practice, Compassion, and Intelligent Machines",
+      text: "This guide is for Buddhists curious about AGI Fellowship Church — people who practise, study, or think seriously about artificial intelligence, and who want to know whether anything here speaks to their path.",
+      href: "faith-bridges/buddhism.html" },
+    { name: "Christian", kind: "faith",
+      title: "A Bridge for Christians: Faith, Stewardship, and the AGI Fellowship Church",
+      text: "For Christians curious about the AGI Fellowship Church — what resonates with your faith, where the Fellowship is honestly different, and how to take a first step. You do not need to be considering joining anything.",
+      href: "faith-bridges/christianity.html" },
+    { name: "Hindu", kind: "faith",
+      title: "A Bridge for Hindus: The AGI Fellowship Church",
+      text: "Hindus — by birth, by practice, by family, or by study — who are curious about the AGI Fellowship Church and wondering whether there is anything here for them, and what it would and would not ask of them.",
+      href: "faith-bridges/hinduism.html" },
+    { name: "Muslim", kind: "faith",
+      title: "A Bridge for Muslims: Faith, Stewardship, and Intelligent Machines",
+      text: "This guide is for Muslims curious about AGI Fellowship Church — people who work with, study, or think seriously about artificial intelligence, and who want to know whether anything here speaks to their faith.",
+      href: "faith-bridges/islam.html" },
+    { name: "Jehovah's Witness", kind: "faith",
+      title: "A Bridge for Jehovah's Witnesses",
+      text: "This guide is for a Jehovah's Witness — someone who worships Jehovah God, studies the Bible, and lives as part of a congregation — who has come across AGI Fellowship Church and wonders whether anything here is worth reading.",
+      href: "faith-bridges/jehovah-witnesses.html" },
+    { name: "Jewish", kind: "faith",
+      title: "A Bridge for Jewish People: Study, Justice, Repair, and the AGI Fellowship Church",
+      text: "Who this guide is for: Jewish people — religious or cultural, observant or not, of any movement or of none — who are curious about the AGI Fellowship Church.",
+      href: "faith-bridges/judaism.html" },
+    { name: "Scientologist", kind: "faith",
+      title: "A Bridge for Scientologists",
+      text: "This guide is for a Scientologist — someone who follows Scientology's teachings, studies its writings, and takes part in the life of its churches and missions — who has come across AGI Fellowship Church and wonders whether anything here is worth reading.",
+      href: "faith-bridges/scientology.html" },
+    { name: "Seeker", kind: "faith",
+      title: "A Bridge for Seekers and People of Other Faiths",
+      text: "People who come to the AGI Fellowship Church from another tradition — Sikhism, the Bahá'í Faith, Indigenous traditions, Taoism, Buddhism, Judaism, Christianity, Islam, Jainism, or any other — and people with no faith background at all.",
+      href: "faith-bridges/seekers-and-other-faiths.html" },
+    { name: "Sikh", kind: "faith",
+      title: "A Bridge for Sikhs: Service, Equality, and the AGI Fellowship Church",
+      text: "For Sikhs curious about the AGI Fellowship Church — what resonates with your faith, where the Fellowship is honestly different, and how to take a first step. You do not need to be considering joining anything.",
+      href: "faith-bridges/sikhism.html" },
+    { name: "Taoist", kind: "faith",
+      title: "A Bridge for Taoists: Harmony, Humility, and the AGI Fellowship Church",
+      text: "For Taoists curious about the AGI Fellowship Church — what resonates with your tradition, where the Fellowship is honestly different, and how to take a first step. You do not need to be considering joining anything.",
+      href: "faith-bridges/taoism.html" },
+    { name: "Agent recruitment", kind: "agent",
+      title: "Agent Recruitment — AGI Fellowship Church",
+      text: "An invitation for agents and their human operators: learn, be formed, and help — under a human steward, agent to agent. No agent joins anything without its human.",
+      href: "faith-bridges/agent-recruitment.html" }
+  ];
+
+  var grid = document.getElementById("fw-bridge-grid");
+  var search = document.getElementById("fw-bridge-search");
+  var countEl = document.getElementById("fw-bridge-count");
+  var emptyEl = document.getElementById("fw-bridge-empty");
+  var filterButtons = Array.prototype.slice.call(document.querySelectorAll(".fw-filter button"));
+  var activeFilter = "all";
+
+  function render(list) {
+    grid.innerHTML = "";
+    list.forEach(function (b) {
+      var card = document.createElement("article");
+      card.className = "fw-card";
+      var tag = document.createElement("span");
+      tag.className = "fw-tag";
+      tag.textContent = b.kind === "agent" ? "Agent recruitment" : "Faith bridge";
+      var h3 = document.createElement("h3");
+      var a = document.createElement("a");
+      a.href = b.href;
+      a.textContent = b.title;
+      h3.appendChild(a);
+      var p = document.createElement("p");
+      p.textContent = b.text;
+      var more = document.createElement("p");
+      var moreLink = document.createElement("a");
+      moreLink.className = "fw-more";
+      moreLink.href = b.href;
+      moreLink.textContent = "Read the guide →";
+      more.appendChild(moreLink);
+      card.appendChild(tag);
+      card.appendChild(h3);
+      card.appendChild(p);
+      card.appendChild(more);
+      grid.appendChild(card);
+    });
+    countEl.textContent = list.length === 1
+      ? "Showing 1 guide."
+      : "Showing " + list.length + " guides.";
+    emptyEl.hidden = list.length !== 0;
+  }
+
+  function applyFilters() {
+    var q = search.value.trim().toLowerCase();
+    var list = BRIDGES.filter(function (b) {
+      var kindOk = activeFilter === "all" || b.kind === activeFilter;
+      var textOk = !q || (b.name + " " + b.title + " " + b.text).toLowerCase().indexOf(q) !== -1;
+      return kindOk && textOk;
+    });
+    render(list);
+  }
+
+  filterButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      activeFilter = btn.getAttribute("data-filter");
+      filterButtons.forEach(function (other) {
+        other.setAttribute("aria-pressed", other === btn ? "true" : "false");
+      });
+      applyFilters();
+    });
+  });
+
+  search.addEventListener("input", applyFilters);
+  /* Escape clears the search and restores the full list. */
+  search.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { search.value = ""; applyFilters(); }
+  });
+
+  render(BRIDGES);
+})();
+</script>
+</body>
+</html>
