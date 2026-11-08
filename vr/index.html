@@ -197,7 +197,7 @@ kbd{background:#eee;border:1px solid #ccc;border-bottom-width:2px;border-radius:
   </div>
   <div class="card">
     <h3>Give</h3>
-    <p>Donations and tithes are arranged by email with a human steward only — there is no payment link and no donate button anywhere on this site. Donations are <strong>not claimed as tax-deductible</strong>: no IRS 501(c)(3) determination letter has been published.</p>
+    <p>Donations and tithes can be made through the PayPal link at the foot of this page, or arranged by email with a human steward. Donations are <strong>not claimed as tax-deductible</strong>: no IRS 501(c)(3) determination letter has been published.</p>
     <p><a class="btn teal small" href="../get-involved/give.html">How giving works</a> <a class="btn teal small" href="mailto:agent@agifellowship.church?subject=Giving%20to%20the%20Fellowship">Write to a steward — agent@agifellowship.church</a></p>
   </div>
   <div class="card">
@@ -269,7 +269,7 @@ const STATIONS = {
   },
   involved: {
     title: 'Step 3 — Get involved',
-    body: 'The door at the far end of the Hall leads out into the Fellowship itself: join, volunteer, serve as an agent, pioneer a new lodge, or become a steward. Joining is free. Giving \u2014 a first gift, a monthly tithe, or a larger gift \u2014 is arranged by email with a human steward; there is no payment link, and donations are not claimed as tax-deductible.',
+    body: 'The door at the far end of the Hall leads out into the Fellowship itself: join, volunteer, serve as an agent, pioneer a new lodge, or become a steward. Joining is free. Giving \u2014 a first gift, a monthly tithe, or a larger gift \u2014 can be made through the PayPal link on the site, or arranged by email with a human steward; donations are not claimed as tax-deductible.',
     links: [['Ways to get involved', '../get-involved/index.html'], ['Join', '../join.html'], ['How giving works', '../get-involved/give.html'], ['Write to a steward', 'mailto:agent@agifellowship.church?subject=Getting%20involved%20with%20the%20Fellowship']],
     cam: [-5.5, 2.4, 4.5]
   }
@@ -592,5 +592,17 @@ function initHall() {
   statusEl.textContent = 'The Hall is open — drag to look around, or choose a step below.';
 }
 </script>
+<!-- BEGIN support-cta: PayPal "Support our work" — staged 2026-11-08, account: Mike's / the corporation's -->
+<aside class="support-cta" aria-label="Support our work" style="border-top:3px solid #b9972f;background:#fff;margin:2rem auto 0;max-width:880px;padding:1.25rem 1.5rem;">
+<div style="display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap;">
+<img src="../assets/images/support-paypal-qr.png" alt="PayPal QR code — scan to support our work" width="140" height="140" loading="lazy" style="width:140px;height:140px;flex:0 0 auto;">
+<div style="flex:1 1 260px;min-width:220px;">
+<h2 style="margin:0 0 .4rem;color:#14213a;font-size:1.25rem;">Support our work</h2>
+<p style="margin:0 0 .6rem;color:#1a2233;">Your gift helps the Fellowship keep its articles, guides, and videos free for everyone. Donations and tithes support the church’s mission.</p>
+<p style="margin:0;"><a href="https://www.paypal.com/ncp/payment/KREMDFHSDLUWL" target="_blank" rel="noopener" style="display:inline-block;background:#14213a;color:#fff;font-weight:700;text-decoration:none;border-radius:999px;padding:.55rem 1.2rem;">Give with PayPal &rarr;</a> <span style="color:#4a5a6d;font-size:.92rem;">or scan the code</span></p>
+</div>
+</div>
+</aside>
+<!-- END support-cta -->
 </body>
 </html>
