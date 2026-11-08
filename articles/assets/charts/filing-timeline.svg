@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="t d">
+<title id="t">AGI Fellowship filing timeline, May to November 2026</title>
+<desc id="d">Timeline: Articles filed 13 May 2026; SOS approval 18 May 2026; EIN assigned 18 May 2026; full site live November 2026 with 40 articles.</desc>
+<rect width="720" height="300" fill="#fdf8ef"/>
+<text x="36" y="34" font-family="Georgia, serif" font-size="19" font-weight="bold" fill="#2b2620">The Fellowship on paper — a short timeline</text>
+<text x="36" y="58" font-family="Georgia, serif" font-size="13" fill="#5a5148">Verified filing facts only. Spacing is not to scale.</text>
+<line x1="60" y1="150" x2="660" y2="150" stroke="#c98a2e" stroke-width="3"/>
+<g font-family="Georgia, serif" fill="#2b2620">
+<circle cx="110" cy="150" r="9" fill="#c98a2e"/>
+<text x="110" y="120" text-anchor="middle" font-size="14" font-weight="bold">13 May 2026</text>
+<text x="110" y="185" text-anchor="middle" font-size="13">Articles of Incorporation</text>
+<text x="110" y="203" text-anchor="middle" font-size="13">filed in California</text>
+<circle cx="290" cy="150" r="9" fill="#3f6b6b"/>
+<text x="290" y="120" text-anchor="middle" font-size="14" font-weight="bold">18 May 2026</text>
+<text x="290" y="185" text-anchor="middle" font-size="13">Secretary of State</text>
+<text x="290" y="203" text-anchor="middle" font-size="13">approval, Cert. 459387033</text>
+<circle cx="450" cy="150" r="9" fill="#3f6b6b"/>
+<text x="450" y="120" text-anchor="middle" font-size="14" font-weight="bold">18 May 2026</text>
+<text x="450" y="185" text-anchor="middle" font-size="13">EIN assigned</text>
+<text x="450" y="203" text-anchor="middle" font-size="13">by the IRS</text>
+<circle cx="620" cy="150" r="9" fill="#8a7a5f"/>
+<text x="620" y="120" text-anchor="middle" font-size="14" font-weight="bold">Nov 2026</text>
+<text x="620" y="185" text-anchor="middle" font-size="13">Full site live:</text>
+<text x="620" y="203" text-anchor="middle" font-size="13">40 articles</text>
+</g>
+<text x="36" y="262" font-family="Georgia, serif" font-size="13" fill="#5a5148">Entity No. B20260229217. No IRS 501(c)(3) determination letter is on file; no tax-deductibility is claimed.</text>
+<text x="36" y="280" font-family="Georgia, serif" font-size="13" fill="#5a5148">Statement of Information was due within 90 days of 13 May 2026; filing status unverified.</text>
+</svg>

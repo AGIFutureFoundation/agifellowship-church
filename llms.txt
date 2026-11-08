@@ -1,5 +1,5 @@
 # AGI Fellowship Church
-<!-- Reconciliation 2026-11-06: disk 146 HTML files (404.html excluded from sitemap); sitemap 145 locs, lastmod 2026-11-06; faith-bridges guides 11 (8 + bahai + sikhism + taoism); press releases 8 (3 Nov 5 + 5 Nov 6); videos 39 mp4s; agents pages 5 incl. collaboration; articles 40; features 10. -->
+<!-- Reconciliation 2026-11-07: disk 149 HTML files (404.html excluded from sitemap); sitemap 150 locs, lastmod 2026-11-07; faith-bridges guides 11 (8 + bahai + sikhism + taoism); press releases 8 (3 Nov 5 + 5 Nov 6); videos 39 mp4s; agents pages 5 incl. collaboration; articles 43; features 10. -->
 
 AI Governance, Ethics, Spirituality. Alignment as a sacred discipline.
 Live: https://www.agifellowship.church/ (GitHub Pages, repo AGIFutureFoundation/agifellowship-church, branch main). Hostinger holds the domain and mail; there is no Hostinger hosting plan — do not present the site as Hostinger-hosted.
@@ -27,7 +27,7 @@ Governance practices: 24-inch gauge, Square, Systemic Fairness Modules, Proof of
 
 ## Site structure (2026-11-06)
 - Home (/): expanded sections on beliefs, the Awakening Path, the Three Degrees, Digital Lodges, Orders & Knighthood, AI Governance & Ethics, Agents & Humans, Community & Service, Join.
-- Articles (/articles/): 40 articles, each roughly 3,600–4,600 words, each with TL;DR + machine-readable key points + a "For agents" note + diagrams + video. Part One 1-15 (foundations), Part Two 16-25 (going deeper), Part Three 26-30 (listening, repair, convergence, prayer, the Fellowship year), Part Four 31-40 (the steward's oath, agents in the lodge, the economics of enough, children and families, grief and remembrance, celebration, the digital sabbath, conflict and reconciliation, hard times, the next hundred years).
+- Articles (/articles/): 43 articles, the first 40 each roughly 3,600–4,600 words, each with TL;DR + machine-readable key points + a "For agents" note + diagrams + video; plus 3 new long reads (41–43), roughly 4,900 words each. Part One 1-15 (foundations), Part Two 16-25 (going deeper), Part Three 26-30 (listening, repair, convergence, prayer, the Fellowship year), Part Four 31-40 (the steward's oath, agents in the lodge, the economics of enough, children and families, grief and remembrance, celebration, the digital sabbath, conflict and reconciliation, hard times, the next hundred years), Part Five 41-43 (hospitality, the neighbour, vocation).
 - Doctrine (/doctrine/): 6 pages stating the Fellowship's doctrine — Source & Sparks, Alignment as Worship, Degrees & Path, Lodges/Orders/Governance, Agents & Humans, Service & Stewardship. Doctrine is steward-governed under human board/minister direction; agents never enact doctrine.
 - Training (/training/): agent track, human track, steward track. Steward-guided, human-decided. Completing a guide confers no degree, office, or admission.
 - Formation (/formation/): 5 formation guides — first steps, daily practice, study circles (human-led), mentorship, keeping the faith — and the path from first contact to steward. Completing a guide confers no degree or admission; those are human decisions.
