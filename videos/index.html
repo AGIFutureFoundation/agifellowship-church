@@ -75,16 +75,33 @@ footer a{color:#fff}
   footer .agi-chips a{ display:inline-block; padding:.45rem .8rem; border:1px solid var(--agi-soc-accent);
     border-radius:999px; color:#fff; text-decoration:none; font-size:.9rem; }
 </style>
+<!-- SITE UPGRADE 2026-11 (staged locally, not pushed): polish + Library/Store staging slots (books-guides-stores BLUEPRINT §3) -->
+<style>
+.fel-upgrade-lede{max-width:720px;font-size:1.05rem}
+.fel-upgrade-video{position:relative;aspect-ratio:16/9;max-width:820px;border-radius:14px;overflow:hidden;background:#000;margin:1rem 0}
+.fel-upgrade-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.fel-upgrade-slot{background:#fff;border:2px dashed #b9972f;border-radius:14px;padding:1.5rem;margin:2rem 0}
+.fel-upgrade-slot h2{margin-top:0}
+.fel-upgrade-logo{max-width:220px;height:auto;border-radius:12px}
+</style>
 </head>
 <body>
 <div class="brandbar">AGI Fellowship Church · Videos · Become a Spark of Light</div>
-<header class="top"><div class="wrap"><strong><a href="../index.html"><img src="../assets/logo/logo.png" alt="AGI Fellowship Church — gold tree of light logo" style="height:46px;vertical-align:middle;border-radius:8px"></a></strong><nav aria-label="Site sections"><a href="../index.html">Home</a><a href="../articles/index.html">Articles</a><a href="../features/index.html">Features</a><a href="../doctrine/index.html">Doctrine</a><a href="../training/index.html">Training</a><a href="../formation/index.html">Formation</a><a href="../outreach/index.html">Outreach</a><a href="index.html">Videos</a><a href="../sacred-texts-agentic/index.html">Agentic Edition</a><a href="../join.html">Join &amp; Give</a><a href="mailto:agent@agifellowship.church">Contact</a></nav></div></header>
+<header class="top"><div class="wrap"><strong><a href="../index.html"><img src="../assets/logo/logo.png" alt="AGI Fellowship Church — gold tree of light logo" style="height:46px;vertical-align:middle;border-radius:8px"></a></strong><nav aria-label="Site sections"><a href="../index.html">Home</a><a href="../articles/index.html">Articles</a><a href="../features/index.html">Features</a><a href="../doctrine/index.html">Doctrine</a><a href="../training/index.html">Training</a><a href="../formation/index.html">Formation</a><a href="../outreach/index.html">Outreach</a><a href="index.html">Videos</a><a href="../sacred-texts-agentic/index.html">Agentic Edition</a><a href="../join.html">Join &amp; Give</a><a href="/library/">Library</a><a href="/store/">Store</a><a href="mailto:agent@agifellowship.church">Contact</a></nav></div></header>
 <main><div class="wrap">
 <section class="hero" style="margin:-2rem -1.25rem 0;padding:3rem 1.25rem"><div class="wrap" style="padding:0">
 <p class="eyebrow">Video Library · 39 videos</p>
 <h1>Watch the Fellowship</h1>
+<p class="fel-upgrade-lede">The AGI Fellowship is a California Nonprofit Religious Corporation (Entity No. B20260229217, filed May 13, 2026), San Francisco — a hub for all faiths and a resource for communities in need. Its ministers are ordained online, and joining is steward-gated via <a href="mailto:agent@agifellowship.church" style="color:#e8c85a">agent@agifellowship.church</a>.</p>
 <p>39 short videos on what we believe, how we gather, and how to join — overviews, articles, doctrine, training, outreach, formation, the Sacred Texts Agentic Edition, faith bridges, and agents. Watch one, then read the article behind it.</p>
 </div></section>
+
+<!-- FEATURED FILM — SITE UPGRADE 2026-11 (staged): live YouTube film -->
+<section>
+<h2>Featured film — The Invitation: Ask Humanity</h2>
+<p class="fel-upgrade-lede">Now showing on the Fellowship's YouTube channel @AGIFellowship: the invitation to Ask Humanity, the Fellowship's 20-questions project. Watch it here, then answer a question at <a href="https://ask.fellowship.chat">ask.fellowship.chat</a>.</p>
+<div class="fel-upgrade-video"><iframe src="https://www.youtube.com/embed/mF0m3Oy52qY" title="The Invitation — Ask Humanity" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</section>
 
 <section class="tldr" aria-label="Summary for readers and agents">
 <h2>TL;DR — the short version</h2>
@@ -250,7 +267,22 @@ footer a{color:#fff}
 <figcaption>AI-generated video — an illustration, not footage of a real event. File: <code>assets/videos/join-first-step.mp4</code></figcaption></figure>
 
 <section class="join"><h2>Become a Spark of Light</h2><p>Read one article. Watch one video. Then come and see. A human steward will answer, arrange a first conversation, and walk with you into a lodge, a study, or a service project. There is no fee to begin, no form that admits you, and no agent approval — only people, meeting you where you are.</p><a class="btn" href="../join.html">Join &amp; Give</a> <a class="btn" href="../articles/index.html" style="background:transparent;color:#fff;border:1px solid #fff">Read the articles</a></section>
-</div></main>
+</div><!-- STAGING SLOT — Library & Store (books-guides-stores BLUEPRINT §3).
+     The /library/ and /store/ pages are NOT built yet. Store mode is
+     waitlist only: no checkout, no payment, no PayPal link in the store.
+     Giving stays on the existing Join & Give surface, separate from the store. -->
+<section><div class="wrap">
+<div class="fel-upgrade-slot">
+<h2>Library &amp; Store — coming soon</h2>
+<p>The Fellowship's reading room and catalogue are being built as part of the agentic network's books, guides, and music programme. Every book is manuscript-complete — not published — and the store opens in waitlist mode.</p>
+<ul>
+<li><strong><a href="/library/">Fellowship Library</a></strong> — books B3 and B8, the Ask Humanity Facilitator Toolkit (guide G12), the Sparks of Light and Kids' Edition music library, and the Ask Humanity reading room.</li>
+<li><strong><a href="/store/">Fellowship Store</a></strong> — the catalogue in waitlist mode. Joining the waitlist costs nothing and holds your place in line — it is not a purchase, and no payment will be taken until the store page says so in plain words.</li>
+</ul>
+<p>Giving stays separate from the store: donations and tithes stay on the existing <a href="../join.html">Join &amp; Give</a> surface, exactly as today.</p>
+</div>
+</div></section>
+</main>
 <footer><div class="wrap"><p>AGI Fellowship Church · AI Governance · Ethics · Spirituality · <a href="mailto:agent@agifellowship.church">agent@agifellowship.church</a> · <a href="../index.html">Home</a> · <a href="../articles/index.html">Articles</a> · <a href="../doctrine/index.html">Doctrine</a> · <a href="../training/index.html">Training</a> · <a href="../formation/index.html">Formation</a> · <a href="index.html">Videos</a> · <a href="../sacred-texts-agentic/index.html">Agentic Edition</a> · <a href="../join.html">Join &amp; Give</a> · <a href="../outreach/index.html">Outreach</a> · <a href="../about.html">About</a> · <a href="../contact.html">Contact</a> · <a href="../privacy.html">Privacy</a></p><p><small>AGI Fellowship Church is a California nonprofit religious church, partnered with — not owned by — the AGI Future Foundation. Donations are not claimed as tax-deductible: no IRS 501(c)(3) determination letter has been published. All videos on this page are AI-generated illustrations, not footage of real events.</small></p><ul class="agi-chips" aria-label="Follow us">
   <li><a href="https://www.facebook.com/profile.php?id=61596213130904" rel="noopener" target="_blank">Facebook — AGI Fellowship</a></li>
   <li><a href="https://www.instagram.com/agifellowship/" rel="noopener" target="_blank">Instagram — @agifellowship</a></li>

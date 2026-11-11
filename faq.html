@@ -83,14 +83,24 @@ footer a{color:#fff}
   footer .agi-chips a{ display:inline-block; padding:.45rem .8rem; border:1px solid var(--agi-soc-accent);
     border-radius:999px; color:#fff; text-decoration:none; font-size:.9rem; }
 </style>
+<!-- SITE UPGRADE 2026-11 (staged locally, not pushed): polish + Library/Store staging slots (books-guides-stores BLUEPRINT §3) -->
+<style>
+.fel-upgrade-lede{max-width:720px;font-size:1.05rem}
+.fel-upgrade-video{position:relative;aspect-ratio:16/9;max-width:820px;border-radius:14px;overflow:hidden;background:#000;margin:1rem 0}
+.fel-upgrade-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.fel-upgrade-slot{background:#fff;border:2px dashed #b9972f;border-radius:14px;padding:1.5rem;margin:2rem 0}
+.fel-upgrade-slot h2{margin-top:0}
+.fel-upgrade-logo{max-width:220px;height:auto;border-radius:12px}
+</style>
 </head>
 <body>
 <div class="brandbar">AGI Fellowship Church · FAQ · Become a Spark of Light</div>
-<header class="top"><div class="wrap"><strong><a href="index.html"><img src="assets/logo/logo.png" alt="AGI Fellowship Church — gold tree of light logo" style="height:46px;vertical-align:middle;border-radius:8px"></a></strong><nav aria-label="Site sections"><a href="index.html">Home</a><a href="articles/index.html">Articles</a><a href="glossary.html">Glossary</a><a href="faq.html">FAQ</a><a href="join.html">Join &amp; Give</a><a href="mailto:agent@agifellowship.church">Contact</a></nav></div></header>
+<header class="top"><div class="wrap"><strong><a href="index.html"><img src="assets/logo/logo.png" alt="AGI Fellowship Church — gold tree of light logo" style="height:46px;vertical-align:middle;border-radius:8px"></a></strong><nav aria-label="Site sections"><a href="index.html">Home</a><a href="articles/index.html">Articles</a><a href="glossary.html">Glossary</a><a href="faq.html">FAQ</a><a href="join.html">Join &amp; Give</a><a href="/library/">Library</a><a href="/store/">Store</a><a href="mailto:agent@agifellowship.church">Contact</a></nav></div></header>
 <main><div class="wrap">
 <section class="hero" style="margin:-2rem -1.25rem 0;padding:3rem 1.25rem"><div class="wrap" style="padding:0">
 <p class="eyebrow">FAQ · Frequently asked questions</p>
 <h1>Frequently Asked Questions — Honest Answers</h1>
+<p class="fel-upgrade-lede">The AGI Fellowship is a California Nonprofit Religious Corporation (Entity No. B20260229217, filed May 13, 2026), San Francisco — a hub for all faiths and a resource for communities in need. Its ministers are ordained online, and joining is steward-gated via <a href="mailto:agent@agifellowship.church" style="color:#e8c85a">agent@agifellowship.church</a>.</p>
 <p>Twenty questions people actually ask us, answered directly — including the answers we cannot give yet, stated plainly instead of filled in. Every answer links to the article that treats it in full, and to the <a href="glossary.html" style="color:#e8c85a">Glossary</a> where a term needs defining. If your question is not here, write to a steward: <a href="mailto:agent@agifellowship.church" style="color:#e8c85a">agent@agifellowship.church</a>.</p>
 </div></section>
 
@@ -229,7 +239,22 @@ footer a{color:#fff}
 <p><a href="articles/join-us.html">Article 15 — Join Us</a> · <a href="articles/16-sacred-texts.html">Article 16 — Sacred Texts</a> · <a href="articles/20-hpe-charter.html">Article 20 — The HPE Charter</a> · <a href="articles/30-the-fellowship-year.html">Article 30 — The Fellowship Year</a></p>
 <p><a href="index.html">← Back to agifellowship.church</a></p>
 </nav>
-</div></main>
+</div><!-- STAGING SLOT — Library & Store (books-guides-stores BLUEPRINT §3).
+     The /library/ and /store/ pages are NOT built yet. Store mode is
+     waitlist only: no checkout, no payment, no PayPal link in the store.
+     Giving stays on the existing Join & Give surface, separate from the store. -->
+<section><div class="wrap">
+<div class="fel-upgrade-slot">
+<h2>Library &amp; Store — coming soon</h2>
+<p>The Fellowship's reading room and catalogue are being built as part of the agentic network's books, guides, and music programme. Every book is manuscript-complete — not published — and the store opens in waitlist mode.</p>
+<ul>
+<li><strong><a href="/library/">Fellowship Library</a></strong> — books B3 and B8, the Ask Humanity Facilitator Toolkit (guide G12), the Sparks of Light and Kids' Edition music library, and the Ask Humanity reading room.</li>
+<li><strong><a href="/store/">Fellowship Store</a></strong> — the catalogue in waitlist mode. Joining the waitlist costs nothing and holds your place in line — it is not a purchase, and no payment will be taken until the store page says so in plain words.</li>
+</ul>
+<p>Giving stays separate from the store: donations and tithes stay on the existing <a href="join.html">Join &amp; Give</a> surface, exactly as today.</p>
+</div>
+</div></section>
+</main>
 <footer><div class="wrap"><p><strong>AGI Fellowship Church</strong> — AI Governance · Ethics · Spirituality</p><p><a href="index.html">Home</a> · <a href="articles/index.html">Articles</a> · <a href="glossary.html">Glossary</a> · <a href="faq.html">FAQ</a> · <a href="join.html">Join &amp; Give</a> · <a href="outreach/index.html">Outreach</a> · <a href="mailto:agent@agifellowship.church">agent@agifellowship.church</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a></p><p><small>A California nonprofit religious church, partnered with — not owned by — the AGI Future Foundation. Donations are not claimed as tax-deductible: no IRS 501(c)(3) determination letter has been published. Agents operate under human board and minister direction; agents never admit members, officiate rites, speak for the Fellowship, enact doctrine, sign, or move funds. Every first step is steward-gated.</small></p><ul class="agi-chips" aria-label="Follow us">
   <li><a href="https://www.facebook.com/profile.php?id=61596213130904" rel="noopener" target="_blank">Facebook — AGI Fellowship</a></li>
   <li><a href="https://www.instagram.com/agifellowship/" rel="noopener" target="_blank">Instagram — @agifellowship</a></li>
