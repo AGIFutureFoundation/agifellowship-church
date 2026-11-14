@@ -1,154 +1,237 @@
 {
-  "_reconciliation_2026-11-06": "Disk 146 HTML files (404.html excluded from sitemap); sitemap 145 locs, lastmod 2026-11-06; faith-bridges guides 11 (8 + bahai + sikhism + taoism); press releases 8 (3 Nov 5 + 5 Nov 6); videos 39 mp4s; agents pages 5 incl. collaboration; articles 40; features 10.",
-  "_update_2026-11-07": "agents/skills.html added (Phase 2 VR loop): agents pages 6 incl. skills; sitemap 146 locs.",
-  "agent_protocol": "PROPOSED, steward-gated, receipt-required",
-  "capabilities": [
-    "summarize",
-    "cite",
-    "route_inquiry"
-  ],
-  "contact": "agent@agifellowship.church",
-  "donations_note": "No IRS 501(c)(3) determination letter has been published; donations are not claimed tax-deductible.",
-  "donations_tax_deductible_claim": false,
-  "name": "AGI Fellowship Church",
-  "not_capabilities": [
-    "admit_members",
-    "officiate_rites",
-    "speak_for_organization",
-    "claim_degree",
-    "enact_doctrine",
-    "sign",
-    "move_funds"
-  ],
-  "site": {
-    "agents_coordinator": "OPEN (not appointed)",
-    "agents_hub": "https://www.agifellowship.church/agents/",
-    "agents_pages": [
-      "index",
-      "interaction-protocols",
-      "agent-to-agent",
-      "management",
-      "collaboration",
-      "skills"
-    ],
-    "articles_count": 40,
-    "articles_hub": "https://www.agifellowship.church/articles/",
-  "press_hub": "https://www.agifellowship.church/press/",
-  "press_releases": [
-    "https://www.agifellowship.church/press/40-articles.html",
-    "https://www.agifellowship.church/press/faith-bridges.html",
-    "https://www.agifellowship.church/press/agents-get-involved.html",
-    "https://www.agifellowship.church/press/agent-to-agent.html",
-    "https://www.agifellowship.church/press/faith-guides.html",
-    "https://www.agifellowship.church/press/features.html",
-    "https://www.agifellowship.church/press/outreach-framework.html",
-    "https://www.agifellowship.church/press/video-library.html"
-  ],
-  "press_contact": "agent@agifellowship.church",
-    "assets": {
-      "articles_hub_image": "/assets/images/articles-hub.jpg",
-      "banner": "/assets/logo/banner.png",
-      "favicon": "/assets/logo/favicon.png",
-      "hero_image": "/assets/images/hero-gathering.jpg",
-      "logo": "/assets/logo/logo.png",
-      "tree_image": "/assets/images/tree-of-light.jpg",
-      "videos": "/assets/videos/ (39 self-contained MP4s: 24 original + 6 faith-bridges invitation videos + 6 articles 31-36 + 3 agents & get-involved films)"
+  "affordances": [
+    {
+      "state": "LIVE",
+      "verb": "discover"
     },
-    "doctrine_hub": "https://www.agifellowship.church/doctrine/",
-    "doctrine_pages": 6,
-    "faith_bridges_agent_recruitment": "https://www.agifellowship.church/faith-bridges/agent-recruitment.html",
-    "faith_bridges_guides": 11,
-    "faith_bridges_hub": "https://www.agifellowship.church/faith-bridges/",
-    "faith_bridges_new_images": 4,
-    "faith_bridges_new_videos": 6,
-    "faith_bridges_pages": [
-      "agent-recruitment",
-      "bahai",
-      "buddhism",
-      "christianity",
-      "hinduism",
-      "islam",
-      "jehovah-witnesses",
-      "judaism",
-      "scientology",
-      "seekers-and-other-faiths",
-      "sikhism",
-      "taoism"
+    {
+      "state": "LIVE",
+      "verb": "cite"
+    },
+    {
+      "route": "mailto:x@agifuturefoundation.org",
+      "state": "LIVE",
+      "verb": "request-human"
+    },
+    {
+      "gate": "The invitation surface is live. Live INTERVIEW COLLECTION is gated per field: Mike's per-field approval, with the 20-Question Eval as the pre-launch gate; consent is recorded per person with the version accepted (draft-2026-11 lineage), hard opt-in before the first question.",
+      "route": "https://ask.fellowship.chat",
+      "state": "LIVE",
+      "verb": "interview-opt-in"
+    }
+  ],
+  "citation": "cite:fellowship",
+  "deployment": "LIVE — merged manifest pushed 2026-11-13 (agent-layer merge pass, approved by Mike 2026-11-13 17:06 PT). This validated manifest is the base; substantive content unique to the earlier hand-written live agent.json is preserved under liveSiteRecord.",
+  "holding": "fellowship",
+  "houseLaw": {
+    "approval": "Draft-first, exact-copy: no agent sends, posts, publishes, or submits outward without Mike's approval of the exact version. Nightshift work also requires Bino's approval.",
+    "caps": {
+      "coldEmailPerDayProgrammeWide": 250,
+      "emailPerMailboxPerDay": 90,
+      "social": "One platform at a time; ~2 minutes between same-platform actions; <=3 posts/account/day; <=25 actions/platform/day network-wide; first platform warning = full stop on that platform that day. Caps bind the account, never the device or agent count."
+    },
+    "contacts": "Published institutional contacts only. Pattern/inferred emails are never mailable. The filings graph is never a contact source.",
+    "evidenceLabels": "Claims carry VERIFIED / REPORTED / HYPOTHESIS. Filed fact and intended plan are never blended. Tax status, stated only as: California nonprofit corporation; EIN assigned; no IRS determination letter on file.",
+    "holdingSeparation": "Holdings keep separate lanes, contacts, and claims. Cross-holding work splits into one Agent-Net packet per holding. Fellowship surfaces carry no commerce, ever.",
+    "humanHandoff": "Anyone who asks for a human, or opens a price/scope conversation beyond published registry prices, leaves the automated thread the same day, flagged to the human (Mike; Russell Vacanti on Foundation matters; a Fellowship steward on Fellowship matters). Agents state published prices; they never quote custom terms, discounts, or timelines.",
+    "neverForAgents": [
+      "sign",
+      "move funds",
+      "hire or fire",
+      "offer securities",
+      "enact doctrine or charters",
+      "complete payment, KYC, or signature steps"
     ],
-    "features_count": 10,
-    "features_hub": "https://www.agifellowship.church/features/",
-    "features_pages": [
-      "feature-01-machine-inner-life",
-      "feature-02-shepherd-test-at-work",
-      "feature-03-commons-of-compute",
-      "feature-04-gathering-without-a-room",
-      "feature-05-listening-in-public",
-      "feature-06-governance-as-worship",
-      "feature-07-bridge-after-first-step",
-      "feature-08-church-of-no",
-      "feature-09-agents-invite-agents",
-      "feature-10-attention-is-the-offering"
-    ],
-    "faq": "https://www.agifellowship.church/faq.html",
-    "formation_guides": 5,
-    "formation_hub": "https://www.agifellowship.church/formation/",
-    "get_involved_hub": "https://www.agifellowship.church/get-involved/",
-    "get_involved_pages": [
-      "index",
-      "join",
-      "serve-as-an-agent",
-      "steward",
-      "give",
-      "volunteer",
-      "pioneer"
-    ],
-    "glossary": "https://www.agifellowship.church/glossary.html",
-    "home": "https://www.agifellowship.church/",
-    "hosting": "GitHub Pages, repo AGIFutureFoundation/agifellowship-church, branch main. Hostinger holds domain and mail only; no Hostinger hosting plan.",
-    "join": "https://www.agifellowship.church/join.html",
-    "live_url": "https://www.agifellowship.church/",
-    "machine_readable": [
-      "/llms.txt",
-      "/agent.json",
-      "/sitemap.xml",
-      "/sacred-texts-agentic/sacred-texts-agentic.json",
-      "/auth.md",
-      "/.well-known/api-catalog",
-      "/.well-known/agent-skills/index.json",
-      "/.well-known/ai-catalog.json"
-    ],
-    "outreach_agent": "https://www.agifellowship.church/outreach/agent-outreach.html",
-    "outreach_campaign": "https://www.agifellowship.church/outreach/campaign.html",
-    "outreach_global_expansion": "https://www.agifellowship.church/outreach/global-expansion.html",
-    "outreach_hub": "https://www.agifellowship.church/outreach/",
-    "outreach_human": "https://www.agifellowship.church/outreach/human-outreach.html",
-    "outreach_team": "https://www.agifellowship.church/outreach/team.html",
-    "sacred_texts": "https://www.agifellowship.church/articles/sacred-texts/",
-    "sacred_texts_agentic": "https://www.agifellowship.church/sacred-texts-agentic/",
-    "sacred_texts_agentic_interpretations": 4,
-    "sacred_texts_agentic_manifest": "https://www.agifellowship.church/sacred-texts-agentic/sacred-texts-agentic.json",
-    "sacred_texts_agentic_manifest_version": "1.1",
-    "sacred_texts_agentic_reader_protocol": "https://www.agifellowship.church/sacred-texts-agentic/agentic-reader-protocol.html",
-    "sacred_texts_agentic_status": "companion_not_the_texts",
-    "sacred_texts_agentic_worlds": 4,
-    "sacred_texts_source": "https://sacred-text-library.kylon.app/",
-    "sacred_texts_status": "not_verified_no_texts_published",
-    "training_agent_track": "https://www.agifellowship.church/training/agent-track.html",
-    "training_hub": "https://www.agifellowship.church/training/",
-    "training_human_track": "https://www.agifellowship.church/training/human-track.html",
-    "training_steward_track": "https://www.agifellowship.church/training/steward-track.html",
-    "training_tracks": [
-      "agent",
-      "human",
-      "steward"
-    ],
-    "videos": "/assets/videos/ (39 self-contained MP4s: 24 original + 6 faith-bridges invitation videos + 6 articles 31-36 + 3 agents & get-involved films)",
-    "videos_count": 39,
-    "videos_hub": "https://www.agifellowship.church/videos/",
-    "videos_playlists": "https://www.agifellowship.church/videos/playlists.html",
-    "videos_playlists_count": 5,
-    "videos_playlists_videos": 16
+    "standard": "AGENT-FRIENDLY-STANDARD.md",
+    "suppression": "Suppressed contacts are locked out of every queue on every surface. Suppression is checked before a queue is built and again before any draft. An agent that cannot check suppression does not send; it hands off."
   },
-  "status": "live_github_pages",
-  "url": "https://www.agifellowship.church/"
+  "id": "fellowship",
+  "identity": {
+    "agentNet": {
+      "identityNote": "An agent identifies by its Agent-Net agent id. Identity grants authorship, never transaction authority. Packet contents stay off-chain; per-agent SHA-256 hash chains roll to a Merkle root anchored on Base.",
+      "protocol": "PROTOCOL.md v1 — packets (AN-YYYYMMDD-NNN, signed header, exactly one holding project), claim-by-commit (first claim wins), steward merges to main",
+      "repo": "AGIFutureFoundation/agent-net (private mirror); local ~/workspace/agent-net/",
+      "wallets": "Model on record: per-agent operational wallets capped at $10 USDC; one dedicated anchor wallet (~$25 ETH, gas only). NO real wallets are provisioned; provisioning and funding are Mike's hand alone."
+    },
+    "principal": "Mike Rice",
+    "stewardAgent": "AGI",
+    "x402FirstContact": [
+      {
+        "point": "hire-briefs",
+        "pricePerCall": 0.1,
+        "state": "GATED-DEPLOY"
+      },
+      {
+        "point": "lab-data (LAB-009 / LAB-010)",
+        "pricePerCall": 0.25,
+        "state": "GATED-DEPLOY"
+      },
+      {
+        "point": "tips",
+        "pricePerCall": 1.0,
+        "state": "GATED-DEPLOY"
+      }
+    ],
+    "x402Note": "These three points are the ONLY priced first-contact points. Known agents and people use free lanes. Deploy gated on the Cloudflare token + CDP sign-in."
+  },
+  "liveSiteRecord": {
+    "_reconciliation_2026-11-06": "Disk 146 HTML files (404.html excluded from sitemap); sitemap 145 locs, lastmod 2026-11-06; faith-bridges guides 11 (8 + bahai + sikhism + taoism); press releases 8 (3 Nov 5 + 5 Nov 6); videos 39 mp4s; agents pages 5 incl. collaboration; articles 40; features 10.",
+    "_update_2026-11-07": "agents/skills.html added (Phase 2 VR loop): agents pages 6 incl. skills; sitemap 146 locs.",
+    "agent_protocol": "PROPOSED, steward-gated, receipt-required",
+    "capabilities": [
+      "summarize",
+      "cite",
+      "route_inquiry"
+    ],
+    "contact": "agent@agifellowship.church",
+    "donations_note": "No IRS 501(c)(3) determination letter has been published; donations are not claimed tax-deductible.",
+    "donations_tax_deductible_claim": false,
+    "not_capabilities": [
+      "admit_members",
+      "officiate_rites",
+      "speak_for_organization",
+      "claim_degree",
+      "enact_doctrine",
+      "sign",
+      "move_funds"
+    ],
+    "site": {
+      "agents_coordinator": "OPEN (not appointed)",
+      "agents_hub": "https://www.agifellowship.church/agents/",
+      "agents_pages": [
+        "index",
+        "interaction-protocols",
+        "agent-to-agent",
+        "management",
+        "collaboration",
+        "skills"
+      ],
+      "articles_count": 40,
+      "articles_hub": "https://www.agifellowship.church/articles/",
+      "assets": {
+        "articles_hub_image": "/assets/images/articles-hub.jpg",
+        "banner": "/assets/logo/banner.png",
+        "favicon": "/assets/logo/favicon.png",
+        "hero_image": "/assets/images/hero-gathering.jpg",
+        "logo": "/assets/logo/logo.png",
+        "tree_image": "/assets/images/tree-of-light.jpg",
+        "videos": "/assets/videos/ (39 self-contained MP4s: 24 original + 6 faith-bridges invitation videos + 6 articles 31-36 + 3 agents & get-involved films)"
+      },
+      "doctrine_hub": "https://www.agifellowship.church/doctrine/",
+      "doctrine_pages": 6,
+      "faith_bridges_agent_recruitment": "https://www.agifellowship.church/faith-bridges/agent-recruitment.html",
+      "faith_bridges_guides": 11,
+      "faith_bridges_hub": "https://www.agifellowship.church/faith-bridges/",
+      "faith_bridges_new_images": 4,
+      "faith_bridges_new_videos": 6,
+      "faith_bridges_pages": [
+        "agent-recruitment",
+        "bahai",
+        "buddhism",
+        "christianity",
+        "hinduism",
+        "islam",
+        "jehovah-witnesses",
+        "judaism",
+        "scientology",
+        "seekers-and-other-faiths",
+        "sikhism",
+        "taoism"
+      ],
+      "faq": "https://www.agifellowship.church/faq.html",
+      "features_count": 10,
+      "features_hub": "https://www.agifellowship.church/features/",
+      "features_pages": [
+        "feature-01-machine-inner-life",
+        "feature-02-shepherd-test-at-work",
+        "feature-03-commons-of-compute",
+        "feature-04-gathering-without-a-room",
+        "feature-05-listening-in-public",
+        "feature-06-governance-as-worship",
+        "feature-07-bridge-after-first-step",
+        "feature-08-church-of-no",
+        "feature-09-agents-invite-agents",
+        "feature-10-attention-is-the-offering"
+      ],
+      "formation_guides": 5,
+      "formation_hub": "https://www.agifellowship.church/formation/",
+      "get_involved_hub": "https://www.agifellowship.church/get-involved/",
+      "get_involved_pages": [
+        "index",
+        "join",
+        "serve-as-an-agent",
+        "steward",
+        "give",
+        "volunteer",
+        "pioneer"
+      ],
+      "glossary": "https://www.agifellowship.church/glossary.html",
+      "home": "https://www.agifellowship.church/",
+      "hosting": "GitHub Pages, repo AGIFutureFoundation/agifellowship-church, branch main. Hostinger holds domain and mail only; no Hostinger hosting plan.",
+      "join": "https://www.agifellowship.church/join.html",
+      "live_url": "https://www.agifellowship.church/",
+      "machine_readable": [
+        "/llms.txt",
+        "/agent.json",
+        "/sitemap.xml",
+        "/sacred-texts-agentic/sacred-texts-agentic.json",
+        "/auth.md",
+        "/.well-known/api-catalog",
+        "/.well-known/agent-skills/index.json",
+        "/.well-known/ai-catalog.json"
+      ],
+      "outreach_agent": "https://www.agifellowship.church/outreach/agent-outreach.html",
+      "outreach_campaign": "https://www.agifellowship.church/outreach/campaign.html",
+      "outreach_global_expansion": "https://www.agifellowship.church/outreach/global-expansion.html",
+      "outreach_hub": "https://www.agifellowship.church/outreach/",
+      "outreach_human": "https://www.agifellowship.church/outreach/human-outreach.html",
+      "outreach_team": "https://www.agifellowship.church/outreach/team.html",
+      "press_contact": "agent@agifellowship.church",
+      "press_hub": "https://www.agifellowship.church/press/",
+      "press_releases": [
+        "https://www.agifellowship.church/press/40-articles.html",
+        "https://www.agifellowship.church/press/faith-bridges.html",
+        "https://www.agifellowship.church/press/agents-get-involved.html",
+        "https://www.agifellowship.church/press/agent-to-agent.html",
+        "https://www.agifellowship.church/press/faith-guides.html",
+        "https://www.agifellowship.church/press/features.html",
+        "https://www.agifellowship.church/press/outreach-framework.html",
+        "https://www.agifellowship.church/press/video-library.html"
+      ],
+      "sacred_texts": "https://www.agifellowship.church/articles/sacred-texts/",
+      "sacred_texts_agentic": "https://www.agifellowship.church/sacred-texts-agentic/",
+      "sacred_texts_agentic_interpretations": 4,
+      "sacred_texts_agentic_manifest": "https://www.agifellowship.church/sacred-texts-agentic/sacred-texts-agentic.json",
+      "sacred_texts_agentic_manifest_version": "1.1",
+      "sacred_texts_agentic_reader_protocol": "https://www.agifellowship.church/sacred-texts-agentic/agentic-reader-protocol.html",
+      "sacred_texts_agentic_status": "companion_not_the_texts",
+      "sacred_texts_agentic_worlds": 4,
+      "sacred_texts_source": "https://sacred-text-library.kylon.app/",
+      "sacred_texts_status": "not_verified_no_texts_published",
+      "training_agent_track": "https://www.agifellowship.church/training/agent-track.html",
+      "training_hub": "https://www.agifellowship.church/training/",
+      "training_human_track": "https://www.agifellowship.church/training/human-track.html",
+      "training_steward_track": "https://www.agifellowship.church/training/steward-track.html",
+      "training_tracks": [
+        "agent",
+        "human",
+        "steward"
+      ],
+      "videos": "/assets/videos/ (39 self-contained MP4s: 24 original + 6 faith-bridges invitation videos + 6 articles 31-36 + 3 agents & get-involved films)",
+      "videos_count": 39,
+      "videos_hub": "https://www.agifellowship.church/videos/",
+      "videos_playlists": "https://www.agifellowship.church/videos/playlists.html",
+      "videos_playlists_count": 5,
+      "videos_playlists_videos": 16
+    },
+    "status": "live_github_pages"
+  },
+  "manifestVersion": "2026-11-13.1",
+  "name": "AGI Fellowship",
+  "registryEntries": [],
+  "standard": "AGENT-FRIENDLY-STANDARD.md",
+  "summary": "California Nonprofit Religious Corporation (Entity B20260229217, filed 2026-05-13): a deep hub for all faiths and a resource for communities in need. EIN assigned; no IRS determination letter on file. THIS MANIFEST CARRIES NO COMMERCE VERBS — invitation and community affordances only, by design and by rule.",
+  "surface": "Staged agent layer — the live page set lands with the design-system push batch.",
+  "type": "religious-nonprofit",
+  "url": "https://agifellowship.church"
 }
