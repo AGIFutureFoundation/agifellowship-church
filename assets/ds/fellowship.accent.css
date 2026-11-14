@@ -1,0 +1,14 @@
+/* AGI Fellowship — accent file. Midnight + teal + gold on warm sacred paper.
+   Fellowship surfaces carry NO commercial components (standing rule).
+   Pairs measured in DESIGN-SYSTEM.md §9.1. */
+:root{
+  --accent:#0F766E;          /* teal — filled actions; white on it 5.47:1 */
+  --accent-deep:#14213A;     /* midnight — header / hero / footer ground */
+  --accent-bright:#E8C85A;   /* gold — 9.81:1 on midnight */
+  --accent-text:#0F766E;     /* 5.02:1 on Fellowship paper #F7F5EF */
+  --accent-text-alt:#7A5C00; /* text-safe gold — 5.74:1 on #F7F5EF */
+  --on-accent:#FFFFFF;
+  --hero-ground:#14213A;
+  /* Fellowship paper runs slightly warmer than the shared spine. */
+  --bg:#F7F5EF;
+}
